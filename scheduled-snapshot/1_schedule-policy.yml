@@ -1,0 +1,9 @@
+---
+apiVersion: dataservices.nutanix.com/v1alpha1
+kind: SchedulePolicy
+metadata:
+  name: schedulepolicy-interval-30min
+  namespace: namespace-0
+spec:
+  interval:
+    minutes: 30

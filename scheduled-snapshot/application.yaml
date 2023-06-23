@@ -1,0 +1,8 @@
+---
+apiVersion: dataservices.nutanix.com/v1alpha1
+kind: Application
+metadata:
+  name: mysql
+  namespace: namespace-0
+spec:
+  applicationSelector:

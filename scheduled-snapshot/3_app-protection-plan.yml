@@ -1,0 +1,10 @@
+---
+apiVersion: dataservices.nutanix.com/v1alpha1
+kind: AppProtectionPlan
+metadata:
+  name: app-plan
+  namespace: namespace-0
+spec:
+  suspend: false
+  applicationNames: [mysql]
+  protectionPlanName: pplan-cnds

@@ -1,0 +1,12 @@
+---
+apiVersion: dataservices.nutanix.com/v1alpha1
+kind: ProtectionPlan
+metadata:
+  name: pplan-cnds
+  namespace: namespace-0
+spec:
+  snapshotPolicies:
+  - schedulePolicyName: schedulepolicy-interval-30min
+    retentionPolicy:
+      retain: 48
+  suspend: false
