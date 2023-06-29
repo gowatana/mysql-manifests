@@ -1,6 +1,7 @@
 resources:
 - mysql-secret.yaml
 - mysql.yaml
-- scheduled-snapshot.yml
+- scheduled-snapshot.yaml
+- snapshot.yaml
 
 namespace: mysql-pj-01
